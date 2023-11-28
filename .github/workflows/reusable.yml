@@ -1,0 +1,9 @@
+name: Reusable workflow
+
+on:
+  workflow_call:
+      inputs:
+        who-to-greet:
+          default: World
+          required: true
+          type: string
